@@ -18,7 +18,8 @@ firebase/utils.js
       export default firebase;
 
 /signin/SignInForm.js
-import { auth, provider } from '../../firebase/utils';
+
+    import { auth, provider } from '../../firebase/utils';
 
     // Handler
     const signInWithGoogle = () => {
